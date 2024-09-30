@@ -1,0 +1,114 @@
+body {
+   background-color: grey   ;
+   margin:0px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container {
+
+    display: grid;
+    /*grid-template-columns: repeat(5, 1fr);*/
+    /*grid-template-columns: 30px auto auto auto;*/
+    grid-template-columns: 10% 25% 25% 20% 20%;
+}
+.element {
+    color: white;
+    text-align: center;
+    font-size: 35px;
+}
+.element-1 {
+    background-color: black;
+}
+.element-3 {
+    background-color: black; 
+}
+.element-5 {
+    background-color: black;
+}
+.element-7 {
+    background-color: black;
+}
+.element-9 {
+    background-color: black;
+}
+.titulo-1 {
+    font-size: 20px;
+    margin: 25px;
+}
+.container-2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grupo {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+.sect {
+    background-color: grey;
+}
+.port {
+    background-color: grey;
+}
+.recurs {
+    background-color: grey;
+}
+.coord {
+    background-color: grey;
+}
+
+
+.container-3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.icon {
+    text-align: center;
+    
+}
+.imagen {
+    background-color: #cccccc;
+}
+
+table {
+    margin: 0% auto;
+    width: 50%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 3px solid black;
+    padding: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+
+th {background-color: white;}
+
+.container-4 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.catalog {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.game-1 {
+    background-color: #9b9b9b;
+}
+.game-2 {
+    background-color: #9b9b9b;
+}
+.game-3 {
+    background-color: #9b9b9b;
+}
+.game-4 {
+    background-color: #9b9b9b;
+}
+
+.fondo {
+    background-color: black;
+}
