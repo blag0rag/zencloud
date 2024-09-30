@@ -1,8 +1,12 @@
 body{
-    background-color: rgb(44, 44, 44);
+    background-color: rgb(90, 90, 90);
+    background-image: url(https://i.pinimg.com/originals/ce/6a/88/ce6a8893b318e986e2e328b19e2e9aa2.gif);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+   
 }
 .container{
-    background-color: rgb(24, 24, 24);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 80px auto 50px 50px;
@@ -21,17 +25,39 @@ body{
 .element-4{
     padding: 15px 0px;
 }
-.contenido{
+.indice{
+    border-radius: 5%;
+    padding: 100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: grid;
-    grid-template-columns: 400px auto 400px;
+    grid-template-columns: 500px auto 500px;
+    grid-template-rows:  repeat(4, 100px) ;
+}
+.pulpo{
+    text-align: center;
+    background-color: black;
+}
+.pulpont-1{
+    border: black;
+    color: white;
+    grid-row-start: 1;
+    grid-row-end: 5;
+}
+.pulpont-2{
+    background-color: rgb(155, 155, 155);
+    color: white;
+    grid-row-start: 2;
+    grid-row-end: 5;
+}
+.pulpont-3{
+    background-color: black;
+    color: white;
+    grid-row-start: -1;
+    grid-row-end: 1;
 
 }
-.contenido-1{
-
-}
-.contenido-2{
-    
-}
-.contenido-3{
-
+.pulpont-4{
+    background-color: blue;
+    grid-column-start: 2;
+    grid-row-end: 2;
 }
