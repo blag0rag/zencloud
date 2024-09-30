@@ -11,18 +11,18 @@ body{
     display: grid;
     grid-template-columns: 80px auto 50px 50px;
 }
-.element-1{
+.logo{
     
 }
-.element-2{
+.titulo{
     color: white;
       text-align: left;
 }
-.element-3{
+.X{
     padding: 15px 0px;
  
 }
-.element-4{
+.Facebook{
     padding: 15px 0px;
 }
 .indice{
