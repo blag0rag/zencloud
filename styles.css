@@ -10,7 +10,7 @@ body{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
     grid-template-columns: 80px auto 50px 50px;
-    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.1);
+    background-color: rgba(rgb(0, 0, 0), rgb(0, 0, 0), rgb(0, 0, 0), 0.4);
 }
 .logo{
     
