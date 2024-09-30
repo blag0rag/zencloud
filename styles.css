@@ -1,114 +1,37 @@
-body {
-   background-color: grey   ;
-   margin:0px;
-   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+body{
+    background-color: rgb(44, 44, 44);
 }
-.container {
-
+.container{
+    background-color: rgb(24, 24, 24);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     display: grid;
-    /*grid-template-columns: repeat(5, 1fr);*/
-    /*grid-template-columns: 30px auto auto auto;*/
-    grid-template-columns: 10% 25% 25% 20% 20%;
+    grid-template-columns: 80px auto 50px 50px;
 }
-.element {
-    color: white;
-    text-align: center;
-    font-size: 35px;
-}
-.element-1 {
-    background-color: black;
-}
-.element-3 {
-    background-color: black; 
-}
-.element-5 {
-    background-color: black;
-}
-.element-7 {
-    background-color: black;
-}
-.element-9 {
-    background-color: black;
-}
-.titulo-1 {
-    font-size: 20px;
-    margin: 25px;
-}
-.container-2 {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-.grupo {
-    color: white;
-    text-align: center;
-    font-size: 40px;
-}
-.sect {
-    background-color: grey;
-}
-.port {
-    background-color: grey;
-}
-.recurs {
-    background-color: grey;
-}
-.coord {
-    background-color: grey;
-}
-
-
-.container-3 {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-}
-.icon {
-    text-align: center;
+.element-1{
     
 }
-.imagen {
-    background-color: #cccccc;
-}
-
-table {
-    margin: 0% auto;
-    width: 50%;
-    border-collapse: collapse;
-}
-
-th, td {
-    border: 3px solid black;
-    padding: 30px;
-    text-align: center;
-    font-size: 25px;
-}
-
-th {background-color: white;}
-
-.container-4 {
-    display: grid;
-    grid-template-columns: 25% 25% 25% 25%;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.catalog {
+.element-2{
     color: white;
-    text-align: center;
-    font-size: 30px;
+      text-align: left;
 }
+.element-3{
+    padding: 15px 0px;
+ 
+}
+.element-4{
+    padding: 15px 0px;
+}
+.contenido{
+    display: grid;
+    grid-template-columns: 400px auto 400px;
 
-.game-1 {
-    background-color: #9b9b9b;
 }
-.game-2 {
-    background-color: #9b9b9b;
-}
-.game-3 {
-    background-color: #9b9b9b;
-}
-.game-4 {
-    background-color: #9b9b9b;
-}
+.contenido-1{
 
-.fondo {
-    background-color: black;
+}
+.contenido-2{
+    
+}
+.contenido-3{
+
 }
