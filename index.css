@@ -1,0 +1,183 @@
+body {
+    background-image: url("images/background.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.superior {
+    background-image: url("images/wallpaper.webp");
+    color: #fff;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.superior ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.superior li {
+    margin: 0 10px;
+}
+
+.superior a {
+    text-decoration: none;
+    color: #fff;
+    padding: 10px;
+}
+
+.superior a:hover {
+    background-color: #034392;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quienes {
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.logo h1 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.logo img {
+    width: 50px;
+    height: 50px;
+}
+
+.conocenos {
+    width: 900px;
+    margin: 100px auto;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.conocenos h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+}
+
+.Instagram {
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.X {
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.Facebook {
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.Tiktok {
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.youtube {
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+
+.flecha {
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+.twitch {
+    padding: 5px;
+    margin-right: 5px;
+    text-align: center;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  padding: 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+    
+}
+
+th {
+  font-size: 30px;
+  background-color: #f0f0f0;
+}
+
+td {
+    font-size: 20px;
+    color: #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.grupo {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+}
+.sect {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.port {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.recurs {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.coord {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+
+.container-3 {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+.icon {
+    text-align: center;
+
+}
+.imagen {
+    background-color: rgb(255, 255, 255, 0.2);
+}
