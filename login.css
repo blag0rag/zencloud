@@ -1,0 +1,45 @@
+body {
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    margin-top: 7%;
+}
+.clase-log {
+    background-color: rgba(0, 0, 0, 0.400);
+    text-align: center;
+    color: white;
+    font-size: 15px;
+}
+.logo-zen {
+    grid-column: 2 / 3;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+
+.texto {
+    grid-column: 2 / 3;
+}
+.user {
+    grid-column: 2 / 3;
+}
+.passwd {
+    grid-column: 2 / 3;
+}
+.remember-me {
+    grid-column: 2 / 3;
+    text-align: center;
+}
+.log-btn {
+    grid-column: 2 / 3;
+    text-align: center;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
