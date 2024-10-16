@@ -5,7 +5,6 @@ body {
 }
 
 .superior {
-    background-image: url("images/wallpaper.webp");
     color: #fff;
     padding: 10px;
     display: flex;
@@ -46,6 +45,23 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin: 0;
+    text-align: center;
+}
+
+.contacto {
+    color: azure;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+    text-align: center;
+}
+
+.precio-titulo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+    font-size: 30px;
+    font-weight: bold;
     text-align: center;
 }
 

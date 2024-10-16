@@ -7,6 +7,7 @@ body {
     display: grid;
     grid-template-columns: 33% 33% 33%;
     margin-top: 7%;
+    justify-content: center;
 }
 .clase-log {
     background-color: rgba(0, 0, 0, 0.400);
@@ -25,9 +26,11 @@ body {
 }
 .user {
     grid-column: 2 / 3;
+    text-align: center;
 }
 .passwd {
     grid-column: 2 / 3;
+    text-align: center;
 }
 .remember-me {
     grid-column: 2 / 3;

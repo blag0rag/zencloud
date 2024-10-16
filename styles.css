@@ -1,0 +1,59 @@
+.emuladores {
+    margin-top: 30px;
+    background-color:rgba(110, 131, 252, 0.411);
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+}
+
+.emu-titulo {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.274);
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.snes {
+    width: 218px;
+}
+
+.snes:hover{
+    transform: scale(1.2);
+    transform-origin: center;
+    transition: .2s;
+        z-index: auto;
+}
+
+.nintendo64 {
+    width: 218px;
+}
+
+.nintendo64:hover{
+    transform: scale(1.2);
+    transform-origin: center;
+    transition: .2s;
+        z-index: auto;
+}
+
+.psx {
+    width: 218px;
+}
+
+.psx:hover{
+    transform: scale(1.2);
+    transform-origin: center;
+    transition: .2s;
+        z-index: auto;
+}
+
+.nes {
+    width: 218px;
+}
+
+.nes:hover{
+    transform: scale(1.2);
+    transform-origin: center;
+    transition: .2s;
+        z-index: auto;
+}
