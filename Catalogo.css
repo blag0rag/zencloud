@@ -1,0 +1,127 @@
+
+
+
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/fondohtml.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    
+}
+.container{
+    background-color: rgb(0, 66, 129);
+    color: white;
+    border: 2px solid rgb(1, 59, 107);
+    border-radius: 5px;
+    box-shadow: 0px  5px 10px 0px rgb(69, 149, 214);
+
+    display: grid;
+    grid-template-columns: 135px 300px auto 90px 90px 90px auto 80px 79px;
+    grid-template-rows: 10px auto;
+}
+
+.gridbox{   
+    text-align: center ;
+    font-size: 15px;
+}
+.element-1{
+ 
+    grid-column-start: 1/2;
+}
+.element-3{
+    padding: 5%;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+
+   text-align: center;
+}
+.element-2{
+    grid-column-start: 1;
+    grid-row-start: 2;
+}
+.element-4{
+    grid-column-start: 4;
+}
+.element-5{
+    grid-column-start: 5;
+}
+.element-6{
+    grid-column-start: 6;
+}
+.element-7{
+    grid-column-start: 8;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.element-8{
+    grid-column-start: 9;
+}
+input{
+    color: rgb(250, 250, 250);
+    background-color: rgb(69, 149, 214);
+    border-radius: 5px;
+    border-color: rgb(0, 0, 0);
+}
+input:hover{
+    box-shadow: 0px 2px 5px 0px rgb(255, 255, 255);
+}
+p:hover{
+    border-radius: 5px;
+    background-color: rgb(69, 149, 214);
+    box-shadow: 0px 1px 5px 0px rgb(244, 244, 245);
+}
+
+.flexcontainer{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.flexbox{
+    color: white;
+    text-align: center;
+    background-color: rgb(69, 149, 214);
+    border: 2px solid;
+    border-radius: 15px;
+}
+.imagennnte{
+    align-items: center;
+}
+.imagennn{    
+    justify-content: center;
+    align-items: center;
+    border: 5PX solid rgb(0, 66, 119);
+    border-radius: 15px;
+}
+.imagennn:hover {
+    
+    width: 280px;
+    height: 300px;
+}
+.flexbox:hover{
+    transform: scale(1.15);
+    box-shadow: 0px 5px 30px 0px rgb(0, 0, 0);
+}
+h1{
+    text-align: center;
+}
+.centro{
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: 60px;
+}
+.objeto1{
+    grid-column-start: 2;
+    text-align: center;
+}
+.objeto2{
+    grid-column-start: 3;
+    text-align: right;
+}
