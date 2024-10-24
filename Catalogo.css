@@ -1,13 +1,11 @@
 
-
-
 body{
     background-color: rgb(255, 255, 255);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-image: url(images/fondohtml.jpg);
+    background-image: url(images/9019796.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
 }
 .container{
@@ -62,6 +60,7 @@ body{
     grid-column-start: 9;
 }
 input{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: rgb(250, 250, 250);
     background-color: rgb(69, 149, 214);
     border-radius: 5px;
@@ -71,18 +70,29 @@ input:hover{
     box-shadow: 0px 2px 5px 0px rgb(255, 255, 255);
 }
 p:hover{
+    color: greenyellow;
+    border-radius: 5px;
+    background-color: rgb(69, 149, 214);
+    box-shadow: 0px 1px 5px 0px rgb(244, 244, 245);
+    cursor: pointer;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: greenyellow;
     border-radius: 5px;
     background-color: rgb(69, 149, 214);
     box-shadow: 0px 1px 5px 0px rgb(244, 244, 245);
 }
-
 .flexcontainer{
     padding: 10px;
-    margin: 10px;
+    margin: 21px;
     display: flex;
+    font-size: 20px;
 
     flex-wrap: wrap;
-    margin: 20px;
 }
 .flexbox{
     color: white;
@@ -94,7 +104,8 @@ p:hover{
 .imagennnte{
     align-items: center;
 }
-.imagennn{    
+.imagennn{   
+
     justify-content: center;
     align-items: center;
     border: 5PX solid rgb(0, 66, 119);
@@ -102,7 +113,7 @@ p:hover{
 }
 .imagennn:hover {
     
-    width: 280px;
+    width: 260px;
     height: 300px;
 }
 .flexbox:hover{
@@ -114,8 +125,10 @@ h1{
 }
 .centro{
     display: grid;
-    grid-template-columns: repeat(3, auto);
+    grid-template-columns: auto auto auto;
     grid-template-rows: 60px;
+    font-size: 20px;
+
 }
 .objeto1{
     grid-column-start: 2;
@@ -125,3 +138,4 @@ h1{
     grid-column-start: 3;
     text-align: right;
 }
+
